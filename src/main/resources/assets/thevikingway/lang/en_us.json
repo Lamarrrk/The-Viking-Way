@@ -1,4 +1,9 @@
 {
   "item.thevikingway.steel_ingot": "Steel Ingot",
-  "item.thevikingway.war_horn": "War Horn"
+  "item.thevikingway.war_horn": "War Horn",
+  "item.thevikingway.steel_sword": "Steel sword",
+  "item.thevikingway.steel_pickaxe": "Steel pickaxe",
+  "item.thevikingway.steel_axe": "Steel axe",
+  "item.thevikingway.steel_shovel": "Steel shovel",
+  "item.thevikingway.steel_hoe": "Steel hoe"
 }

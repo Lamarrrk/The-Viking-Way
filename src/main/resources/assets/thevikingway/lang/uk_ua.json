@@ -1,4 +1,9 @@
 {
   "item.thevikingway.steel_ingot": "Стальний злиток",
-  "item.thevikingway.war_horn": "Ріг Війни"
+  "item.thevikingway.war_horn": "Ріг Війни",
+  "item.thevikingway.steel_sword": "Сталевий меч",
+  "item.thevikingway.steel_pickaxe": "Сталевa кірка",
+  "item.thevikingway.steel_axe": "Сталева сокира",
+  "item.thevikingway.steel_shovel": "Сталевa лопата",
+  "item.thevikingway.steel_hoe": "Сталевa мотига"
 }

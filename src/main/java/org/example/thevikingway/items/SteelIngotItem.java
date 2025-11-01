@@ -1,6 +1,5 @@
 package org.example.thevikingway.items;
 
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 
 public class SteelIngotItem extends Item {
@@ -8,3 +7,4 @@ public class SteelIngotItem extends Item {
         super(properties);
     }
 }
+
