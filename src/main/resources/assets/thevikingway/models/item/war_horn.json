@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "the_viking_way:item/war_horn"
+    "layer0": "thevikingway:item/war_horn"
   }
 }

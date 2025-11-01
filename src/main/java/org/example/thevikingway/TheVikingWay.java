@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 @Mod(TheVikingWay.MOD_ID)
 public class TheVikingWay {
 
-    public static final String MOD_ID = "the_viking_way";
+    public static final String MOD_ID = "thevikingway";
 
     private static final Logger LOGGER = LoggerFactory.getLogger(TheVikingWay.class);
 

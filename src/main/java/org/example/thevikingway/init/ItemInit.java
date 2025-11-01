@@ -26,6 +26,4 @@ public class ItemInit {
                             .stacksTo(64)
                             .tab(CreativeModeTab.TAB_MATERIALS)
                     ));
-
-
 }
