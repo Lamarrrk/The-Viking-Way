@@ -5,6 +5,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.example.thevikingway.TheVikingWay;
+import org.example.thevikingway.items.MeadItem;
 import org.example.thevikingway.items.ScandinavianAxeItem;
 import org.example.thevikingway.items.SteelIngotItem;
 import org.example.thevikingway.items.WarHornItem;
@@ -54,4 +55,6 @@ public class ItemInit {
             ITEMS.register("scandinavian_axe",
                     () -> new ScandinavianAxeItem(ModToolTiers.STEEL, 9.0f, -3.5f,
                             new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> MEAD = ITEMS.register("mead",
+            () -> new MeadItem(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(16)));
 }

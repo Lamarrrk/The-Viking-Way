@@ -7,5 +7,7 @@
   "item.thevikingway.steel_shovel": "Steel shovel",
   "item.thevikingway.steel_hoe": "Steel hoe",
   "item.thevikingway.scandinavian_axe": "Scandinavian Axe",
-  "effect.thevikingway.blessing_of_odin": "Blessing of Odin"
+  "effect.thevikingway.blessing_of_odin": "Blessing of Odin",
+  "item.thevikingway.mead": "Mead",
+  "block.thevikingway.fermentation_barrel": "Fermentation_barrel"
 }

@@ -7,5 +7,7 @@
   "item.thevikingway.steel_shovel": "Сталевa лопата",
   "item.thevikingway.steel_hoe": "Сталевa мотига",
   "item.thevikingway.scandinavian_axe": "Скандинавська сокира",
-  "effect.thevikingway.blessing_of_odin": "Благословіння Одіна"
+  "effect.thevikingway.blessing_of_odin": "Благословіння Одіна",
+  "item.thevikingway.mead": "Медовуха",
+  "block.thevikingway.fermentation_barrel": "Бочка настоювання"
 }
