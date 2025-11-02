@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSW",
+    "WWW",
+    " W "
+  ],
+  "key": {
+    "W": { "tag": "minecraft:planks" },
+    "S": { "item": "thevikingway:steel_ingot" }
+  },
+  "result": {
+    "item": "thevikingway:steel_shield",
+    "count": 1
+  }
+}

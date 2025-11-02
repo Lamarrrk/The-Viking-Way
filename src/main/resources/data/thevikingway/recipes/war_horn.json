@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SL ",
+    "SWL",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "thevikingway:steel_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "thevikingway:war_horn",
+    "count": 1
+  }
+}

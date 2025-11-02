@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SLS",
+    "L L",
+    "L L"
+  ],
+  "key": {
+    "S": { "item": "thevikingway:steel_ingot" },
+    "L": { "item": "minecraft:leather" }
+  },
+  "result": {
+    "item": "thevikingway:barbarian_leggings",
+    "count": 1
+  }
+}

@@ -1,13 +1,22 @@
 {
   "item.thevikingway.steel_ingot": "Стальний злиток",
   "item.thevikingway.war_horn": "Ріг Війни",
+  "item.thevikingway.mead": "Медовуха",
+  "item.thevikingway.steel_shield": "Сталевий щит",
+
   "item.thevikingway.steel_sword": "Сталевий меч",
   "item.thevikingway.steel_pickaxe": "Сталевa кірка",
   "item.thevikingway.steel_axe": "Сталева сокира",
   "item.thevikingway.steel_shovel": "Сталевa лопата",
   "item.thevikingway.steel_hoe": "Сталевa мотига",
   "item.thevikingway.scandinavian_axe": "Скандинавська сокира",
+
+  "item.thevikingway.barbarian_boots": "Варварські сапоги",
+  "item.thevikingway.barbarian_chestplate": "Варварський нагрудник",
+  "item.thevikingway.barbarian_leggings": "Варварські панчохи",
+  "item.thevikingway.barbarian_helmet": "Варварський шолом",
+
   "effect.thevikingway.blessing_of_odin": "Благословіння Одіна",
-  "item.thevikingway.mead": "Медовуха",
+
   "block.thevikingway.fermentation_barrel": "Бочка настоювання"
 }

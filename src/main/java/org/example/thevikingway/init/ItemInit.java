@@ -5,21 +5,20 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.example.thevikingway.TheVikingWay;
-import org.example.thevikingway.items.MeadItem;
-import org.example.thevikingway.items.ScandinavianAxeItem;
-import org.example.thevikingway.items.SteelIngotItem;
-import org.example.thevikingway.items.WarHornItem;
+import org.example.thevikingway.items.*;
 
 public class ItemInit {
 
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TheVikingWay.MOD_ID);
 
+    /*-------------------------------------ITEMS-------------------------------------*/
     public static final RegistryObject<Item> WAR_HORN =
             ITEMS.register("war_horn",
                     () -> new WarHornItem(new Item.Properties()
                             .stacksTo(1)   // ріг один
                             .durability(0) // просто щоб показати, що він не ламається
+                            .tab(CreativeModeTab.TAB_MISC)
                     ));
     public static final RegistryObject<Item> STEEL_INGOT =
             ITEMS.register("steel_ingot",
@@ -27,6 +26,15 @@ public class ItemInit {
                             .stacksTo(64)
                             .tab(CreativeModeTab.TAB_MATERIALS)
                     ));
+    public static final RegistryObject<Item> STEEL_SHIELD =
+            ITEMS.register("steel_shield",
+                    () -> new SteelShieldItem(
+                            new Item.Properties()
+                                    .stacksTo(1)
+                                    .tab(CreativeModeTab.TAB_COMBAT)
+                    ));
+
+    /*-------------------------------------INSTRUMENTS-------------------------------------*/
     public static final RegistryObject<Item> STEEL_SWORD =
             ITEMS.register("steel_sword",
                     () -> new SwordItem(ModToolTiers.STEEL, 3, -2.4f,
@@ -57,4 +65,37 @@ public class ItemInit {
                             new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
     public static final RegistryObject<Item> MEAD = ITEMS.register("mead",
             () -> new MeadItem(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(16)));
+
+    /*-------------------------------------ARMOR-------------------------------------*/
+    public static final RegistryObject<Item> BARBARIAN_HELMET =
+            ITEMS.register("barbarian_helmet",
+                    () -> new BarbarianArmorItem(
+                            ModArmorMaterials.BARBARIAN,
+                            net.minecraft.world.entity.EquipmentSlot.HEAD,
+                            new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)
+                    ));
+
+    public static final RegistryObject<Item> BARBARIAN_CHESTPLATE =
+            ITEMS.register("barbarian_chestplate",
+                    () -> new BarbarianArmorItem(
+                            ModArmorMaterials.BARBARIAN,
+                            net.minecraft.world.entity.EquipmentSlot.CHEST,
+                            new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)
+                    ));
+
+    public static final RegistryObject<Item> BARBARIAN_LEGGINGS =
+            ITEMS.register("barbarian_leggings",
+                    () -> new BarbarianArmorItem(
+                            ModArmorMaterials.BARBARIAN,
+                            net.minecraft.world.entity.EquipmentSlot.LEGS,
+                            new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)
+                    ));
+
+    public static final RegistryObject<Item> BARBARIAN_BOOTS =
+            ITEMS.register("barbarian_boots",
+                    () -> new BarbarianArmorItem(
+                            ModArmorMaterials.BARBARIAN,
+                            net.minecraft.world.entity.EquipmentSlot.FEET,
+                            new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)
+                    ));
 }

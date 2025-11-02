@@ -1,13 +1,22 @@
 {
   "item.thevikingway.steel_ingot": "Steel Ingot",
   "item.thevikingway.war_horn": "War Horn",
+  "item.thevikingway.steel_shield": "Steel Shield",
+  "item.thevikingway.mead": "Mead",
+
   "item.thevikingway.steel_sword": "Steel sword",
   "item.thevikingway.steel_pickaxe": "Steel pickaxe",
   "item.thevikingway.steel_axe": "Steel axe",
   "item.thevikingway.steel_shovel": "Steel shovel",
   "item.thevikingway.steel_hoe": "Steel hoe",
   "item.thevikingway.scandinavian_axe": "Scandinavian Axe",
+
+  "item.thevikingway.barbarian_helmet": "Barbarian helmet",
+  "item.thevikingway.barbarian_chestplate": "Barbarian chestplate",
+  "item.thevikingway.barbarian_leggings": "Barbarian leggings",
+  "item.thevikingway.barbarian_boots": "Barbarian boots",
+
   "effect.thevikingway.blessing_of_odin": "Blessing of Odin",
-  "item.thevikingway.mead": "Mead",
+
   "block.thevikingway.fermentation_barrel": "Fermentation_barrel"
 }
