@@ -5,6 +5,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.example.thevikingway.TheVikingWay;
+import org.example.thevikingway.items.ScandinavianAxeItem;
 import org.example.thevikingway.items.SteelIngotItem;
 import org.example.thevikingway.items.WarHornItem;
 
@@ -49,5 +50,8 @@ public class ItemInit {
             ITEMS.register("steel_hoe",
                     () -> new HoeItem(ModToolTiers.STEEL, -2, 0.0f,
                             new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-
+    public static final RegistryObject<Item> SCANDINAVIAN_AXE =
+            ITEMS.register("scandinavian_axe",
+                    () -> new ScandinavianAxeItem(ModToolTiers.STEEL, 9.0f, -3.5f,
+                            new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 }

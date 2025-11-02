@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SLH",
+    " L "
+  ],
+  "key": {
+    "S": { "item": "thevikingway:steel_ingot" },
+    "L": { "item": "minecraft:stick" },
+    "H": { "item": "minecraft:leather" }
+  },
+  "result": {
+    "item": "thevikingway:scandinavian_axe",
+    "count": 1
+  }
+}

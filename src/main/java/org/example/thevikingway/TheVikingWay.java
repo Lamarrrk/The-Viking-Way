@@ -7,6 +7,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.example.thevikingway.init.ItemInit;
+import org.example.thevikingway.init.MobEffects;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,6 +25,8 @@ public class TheVikingWay {
 
         ItemInit.ITEMS.register(modEventBus); // реєструємо наші айтеми в батьківський клас із init/ItemInit,
                                               // айтем war_horn вже має бути прям у майнкрафті якщо зайти та пошукати в табі в креативі
+        MobEffects.EFFECTS.register(FMLJavaModLoadingContext.get().getModEventBus());
+
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
