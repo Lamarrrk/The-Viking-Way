@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    " MM"
+  ],
+  "key": {
+    "B": { "item": "minecraft:sweet_berries" },
+    "M": { "item": "minecraft:cooked_beef" }
+  },
+  "result": { "item": "thevikingway:meat_with_sauce" }
+}

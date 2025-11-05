@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "MMP",
+    " B "
+  ],
+  "key": {
+    "B": { "item": "minecraft:beetroot" },
+    "M": { "item": "minecraft:carrot" },
+    "P": { "item": "minecraft:potato" }
+  },
+  "result": { "item": "thevikingway:vegetable_salad" }
+}

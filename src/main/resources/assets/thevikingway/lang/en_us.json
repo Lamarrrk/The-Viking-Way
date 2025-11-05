@@ -18,5 +18,13 @@
 
   "effect.thevikingway.blessing_of_odin": "Blessing of Odin",
 
-  "block.thevikingway.fermentation_barrel": "Fermentation_barrel"
+  "block.thevikingway.fermentation_barrel": "Fermentation_barrel",
+
+  "item.thevikingway.roast_pig": "Roast Pig",
+  "item.thevikingway.meat_stew": "Meat Stew",
+  "item.thevikingway.fish_soup": "Fish Soup",
+  "item.thevikingway.meat_assortment": "Meat Assortment",
+  "item.thevikingway.vegetable_salad": "Vegetable Salad",
+  "item.thevikingway.meat_with_sauce": "Meat with Sauce"
+
 }

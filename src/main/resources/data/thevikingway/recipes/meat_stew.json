@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CPC",
+    " B "
+  ],
+  "key": {
+    "C": { "item": "minecraft:cooked_chicken" },
+    "P": { "item": "minecraft:potato" },
+    "B": { "item": "minecraft:bowl" }
+  },
+  "result": { "item": "thevikingway:meat_stew" }
+}

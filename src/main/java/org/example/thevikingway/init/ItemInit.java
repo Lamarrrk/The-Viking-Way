@@ -1,5 +1,6 @@
 package org.example.thevikingway.init;
 
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -98,4 +99,55 @@ public class ItemInit {
                             net.minecraft.world.entity.EquipmentSlot.FEET,
                             new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)
                     ));
+    /*-------------------------------------FOOD-------------------------------------*/
+    public static final RegistryObject<Item> ROAST_PIG =
+            ITEMS.register("roast_pig", () -> new Item(new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .nutrition(12)
+                            .saturationMod(1.2f)
+                            .build())
+                    .tab(CreativeModeTab.TAB_FOOD)));
+
+    public static final RegistryObject<Item> MEAT_STEW =
+            ITEMS.register("meat_stew", () -> new BowlFoodItem(new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .nutrition(10)
+                            .saturationMod(1.0f)
+                            .build())
+                    .stacksTo(1)
+                    .tab(CreativeModeTab.TAB_FOOD)));
+
+    public static final RegistryObject<Item> FISH_SOUP =
+            ITEMS.register("fish_soup", () -> new BowlFoodItem(new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .nutrition(8)
+                            .saturationMod(0.9f)
+                            .build())
+                    .stacksTo(1)
+                    .tab(CreativeModeTab.TAB_FOOD)));
+
+    public static final RegistryObject<Item> MEAT_ASSORTMENT =
+            ITEMS.register("meat_assortment", () -> new Item(new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .nutrition(14)
+                            .saturationMod(1.4f)
+                            .build())
+                    .tab(CreativeModeTab.TAB_FOOD)));
+
+    public static final RegistryObject<Item> VEGETABLE_SALAD =
+            ITEMS.register("vegetable_salad", () -> new BowlFoodItem(new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .nutrition(7)
+                            .saturationMod(0.8f)
+                            .build())
+                    .stacksTo(1)
+                    .tab(CreativeModeTab.TAB_FOOD)));
+
+    public static final RegistryObject<Item> MEAT_WITH_SAUCE =
+            ITEMS.register("meat_with_sauce", () -> new Item(new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .nutrition(10)
+                            .saturationMod(1.0f)
+                            .build())
+                    .tab(CreativeModeTab.TAB_FOOD)));
 }

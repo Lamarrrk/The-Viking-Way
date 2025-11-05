@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    " A "
+  ],
+  "key": {
+    "P": { "item": "minecraft:cooked_porkchop" },
+    "A": { "item": "minecraft:apple" }
+  },
+  "result": { "item": "thevikingway:roast_pig" }
+}

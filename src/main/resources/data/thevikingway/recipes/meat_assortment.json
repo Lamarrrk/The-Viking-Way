@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "PPP",
+    "BBB"
+  ],
+  "key": {
+    "C": { "item": "minecraft:cooked_chicken" },
+    "P": { "item": "minecraft:cooked_porkchop" },
+    "B": { "item": "minecraft:cooked_beef" }
+  },
+  "result": { "item": "thevikingway:meat_assortment" }
+}

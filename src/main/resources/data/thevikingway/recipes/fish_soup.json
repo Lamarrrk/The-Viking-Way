@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    " W "
+  ],
+  "key": {
+    "F": { "item": "minecraft:cooked_cod" },
+    "W": { "item": "minecraft:water_bucket" }
+  },
+  "result": { "item": "thevikingway:fish_soup" }
+}
