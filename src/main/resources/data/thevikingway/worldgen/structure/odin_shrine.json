@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "thevikingway:odin_shrine/start_pool",
+  "size": 1,
+  "biomes": "#minecraft:has_structure/village_plains",
+  "step": "surface_structures",
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

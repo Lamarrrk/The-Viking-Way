@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "thevikingway:odin_shrine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 123456789,
+    "separation": 20,
+    "spacing": 40
+  }
+}

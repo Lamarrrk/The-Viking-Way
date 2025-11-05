@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        { "type": "item", "name": "thevikingway:steel_shield", "weight": 1 },
+        { "type": "item", "name": "thevikingway:war_horn", "weight": 1 },
+        { "type": "item", "name": "thevikingway:scandinavian_axe", "weight": 1 }
+      ]
+    }
+  ]
+}
