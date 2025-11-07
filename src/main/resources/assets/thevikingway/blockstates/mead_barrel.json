@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "facing=north,lit=false": { "model": "thevikingway:block/mead_barrel", "x": 90, "y": 180 },
+    "facing=north,lit=true":  { "model": "thevikingway:block/mead_barrel", "x": 90, "y": 180 },
+
+    "facing=south,lit=false": { "model": "thevikingway:block/mead_barrel", "x": 90, "y": 0 },
+    "facing=south,lit=true":  { "model": "thevikingway:block/mead_barrel", "x": 90, "y": 0 },
+
+    "facing=west,lit=false":  { "model": "thevikingway:block/mead_barrel", "x": 90, "y": 90 },
+    "facing=west,lit=true":   { "model": "thevikingway:block/mead_barrel", "x": 90, "y": 90 },
+
+    "facing=east,lit=false":  { "model": "thevikingway:block/mead_barrel", "x": 90, "y": 270 },
+    "facing=east,lit=true":   { "model": "thevikingway:block/mead_barrel", "x": 90, "y": 270 }
+  }
+}

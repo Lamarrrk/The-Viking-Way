@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "lit=false": { "model": "thevikingway:block/fermentation_barrel" },
-    "lit=true": { "model": "thevikingway:block/fermentation_barrel" }
-  }
-}
