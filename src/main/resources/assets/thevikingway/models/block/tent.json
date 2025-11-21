@@ -1,0 +1,125 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "tent": "thevikingway:block/tent"
+  },
+  "elements": [
+    {
+      "name": "BottomLayer1",
+      "from": [0, 0, 3],
+      "to": [4, 6, 15],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#tent" }
+      }
+    },
+    {
+      "name": "BottomLayer2",
+      "from": [12, 0, 3],
+      "to": [16, 6, 15],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#tent" }
+      }
+    },
+    {
+      "name": "Ground",
+      "from": [4, 0, 3],
+      "to": [12, 1, 15],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#tent" }
+      }
+    },
+    {
+      "name": "Back",
+      "from": [4, 0, 12],
+      "to": [12, 6, 16],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#tent" }
+      }
+    },
+    {
+      "name": "MiddleLayer",
+      "from": [2, 6, 3],
+      "to": [14, 10, 15],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#tent" }
+      }
+    },
+    {
+      "name": "TopLayer",
+      "from": [4, 10, 3],
+      "to": [12, 13, 15],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#tent" }
+      }
+    },
+    {
+      "name": "FrontLeftPost",
+      "from": [0, 0, 1],
+      "to": [3, 7, 3],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#tent" }
+      }
+    },
+    {
+      "name": "FrontRightPost",
+      "from": [13, 0, 1],
+      "to": [16, 7, 3],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#tent" }
+      }
+    },
+    {
+      "name": "FrontTopBar",
+      "from": [3, 6, 1],
+      "to": [13, 8, 3],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#tent" },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#tent" }
+      }
+    }
+  ]
+}

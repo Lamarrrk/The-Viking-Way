@@ -20,11 +20,16 @@
 
   "block.thevikingway.mead_barrel": "Mead barrel",
 
+  "block.thevikingway.tent": "Viking Tent",
+  "item.thevikingway.tent": "Viking Tent",
+  "message.thevikingway.tent.only_night": "You can only sleep in the tent at night.",
+  "message.thevikingway.tent.dimension": "The tent doesnt work in this dimension.",
+  "message.thevikingway.tent.rest": "You rest in the tent and feel a bit less hungry.",
+
   "item.thevikingway.roast_pig": "Roast Pig",
   "item.thevikingway.meat_stew": "Meat Stew",
   "item.thevikingway.fish_soup": "Fish Soup",
   "item.thevikingway.meat_assortment": "Meat Assortment",
   "item.thevikingway.vegetable_salad": "Vegetable Salad",
   "item.thevikingway.meat_with_sauce": "Meat with Sauce"
-
 }

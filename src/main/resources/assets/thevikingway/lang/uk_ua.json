@@ -20,11 +20,16 @@
 
   "block.thevikingway.mead_barrel": "Бочка медовухи",
 
+  "block.thevikingway.tent": "Вікінгський намет",
+  "item.thevikingway.tent": "Вікінгський намет",
+  "message.thevikingway.tent.only_night": "Спати в наметі можна лише вночі.",
+  "message.thevikingway.tent.dimension": "У цьому вимірі намет не працює.",
+  "message.thevikingway.tent.rest": "Ти відпочив у наметі й трохи втамував голод.",
+
   "item.thevikingway.roast_pig": "Порося з яблуком",
   "item.thevikingway.meat_stew": "Картопля з м’ясом та овочами",
   "item.thevikingway.fish_soup": "Уха",
   "item.thevikingway.meat_assortment": "М’ясне асорті",
   "item.thevikingway.vegetable_salad": "Овочевий салат",
   "item.thevikingway.meat_with_sauce": "М’ясо із соусом"
-
 }

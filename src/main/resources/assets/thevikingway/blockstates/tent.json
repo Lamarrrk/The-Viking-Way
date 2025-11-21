@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "thevikingway:block/tent" },
+    "facing=south": { "model": "thevikingway:block/tent", "y": 180 },
+    "facing=west":  { "model": "thevikingway:block/tent", "y": 270 },
+    "facing=east":  { "model": "thevikingway:block/tent", "y": 90 }
+  }
+}
